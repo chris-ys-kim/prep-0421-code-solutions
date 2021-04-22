@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Display Properties</title>
+  <style>
+.a {
+  border: 4px solid blue;
+}
+
+.b {
+  border: 4px solid green;
+  height: 100px;
+  width: 100px;
+}
+
+.c {
+  border: 4px solid red;
+  height: 40px;
+  width: 200px;
+}
+
+.d {
+  border: 4px solid purple;
+}
+
+.e {
+  border: 4px solid magenta;
+  display: inline;
+}
+
+  </style>
+</head>
+
+<body>
+  <div class="a">I am a div and by default I am block, which means I take up all the space I can horizontally.</div>
+  <div class="a">I am a div but I have <span class="b">span elements inside me</span> and span elements are <span class="b">display inline by default</span>,
+    which only take up as much as space as they need.</div>
+  <div class="a">
+    <button class="c">Hello!</button>
+    <button class="c">Buttons are</button>
+    <button class="c">Inline Block</button>
+    <button class="c">By Default</button>
+  </div>
+
+<ul class="d">
+  <li class="e">
+    Home
+  </li>
+  <li class="e">
+    Products
+  </li>
+  <li class="e">
+    About Us
+  </li>
+  <li class="e">
+    Contact Us
+  </li>
+</ul>
+
+</body>
+</html>
