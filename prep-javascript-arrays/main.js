@@ -1,5 +1,5 @@
 var languagesArray = ['html', 'css', 'javascript', 'react', 'node'];
-languagesArray.splice(5, 0, 'C#', 'php');
+languagesArray.push('C#', 'php');
 languagesArray.pop();
 languagesArray.unshift('C++');
 languagesArray.shift();
