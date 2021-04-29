@@ -1,0 +1,10 @@
+var languagesArray = ['html', 'css', 'javascript', 'react', 'node'];
+languagesArray.push('C#', 'php');
+languagesArray.pop();
+languagesArray.unshift('C++');
+languagesArray.shift();
+var thirdElement = languagesArray[2];
+var arrayLength = languagesArray.length;
+var lastItem = languagesArray[arrayLength - 1];
+console.log(thirdElement);
+console.log(lastItem);
